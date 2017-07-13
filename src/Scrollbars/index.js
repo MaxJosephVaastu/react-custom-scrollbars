@@ -282,7 +282,7 @@ export default class Scrollbars extends Component {
                 this.setState({ scrollbarWidth: recalculatedScrollbarWidth });
             }
             this.update();
-        }, 150)();
+        }, 300)();
     }
 
     handleHorizontalTrackMouseDown(event) {
